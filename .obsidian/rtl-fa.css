@@ -1,0 +1,19 @@
+/* Save as: <vault>/.obsidian/snippets/rtl-fa.css  then enable in Settings > Appearance > CSS snippets */
+.rtl-fa.markdown-preview-view,
+.rtl-fa .cm-content {
+  direction: rtl;
+  text-align: right;
+}
+/* keep code left-to-right */
+.rtl-fa pre,
+.rtl-fa code,
+.rtl-fa .HyperMD-codeblock {
+  direction: ltr;
+  text-align: left;
+}
+/* bullets/numbers on the right side */
+.rtl-fa.markdown-preview-view ul,
+.rtl-fa.markdown-preview-view ol {
+  padding-right: 1.5em;
+  padding-left: 0;
+}
